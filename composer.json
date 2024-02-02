@@ -1,0 +1,16 @@
+{
+    "name": "2daw/personal_soap-service",
+    "autoload": {
+        "psr-4": {
+            "2daw\\PersonalSoapService\\": "src/"
+        }
+    },
+    "require": {
+        "econea/nusoap": "^0.9.16"
+    },
+    "config": {
+        "allow-plugins": {
+            "symfony/flex": false
+        }
+    }
+}
